@@ -36,3 +36,96 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes slide-right {
+  from{
+      opacity: 25%;
+      transform:translateX(-100px);
+  }
+  to{
+      opacity: 100%;
+      transform:translateX(0px);
+  }
+}
+
+@keyframes slide-left {
+  from{
+      opacity: 25%;
+      transform:translateX(100px);
+  }
+  to{
+      opacity: 100%;
+      transform:translateX(0px);
+  }
+}
+
+
+@keyframes slide-down {
+  from{
+      opacity: 25%;
+      transform:translatey(-100px);
+  }
+  to{
+      opacity: 100%;
+      transform:translatey(0px);
+  }
+}
+
+@keyframes slide-up {
+  from{
+      opacity: 25%;
+      transform:translatey(100px);
+  }
+  to{
+      opacity: 100%;
+      transform:translatey(0px);
+  }
+}
+
+.projectIcon{
+  border-radius: 50%;
+  background-color: rgb(168, 0, 168);
+  height: 200px;
+  width: 200px;
+}
+
+.imageHolder{
+  border: solid 2px white;
+  border-radius: 50%;
+}
+
+.image{
+  width: 100%
+}
+
+.icon{
+  font-size: 40px;
+  color: rgb(168, 0, 168);
+}
+
+.socialLink:hover{
+  box-shadow: 0 10px 20px rgb(168, 0, 168), 0 6px 6px rgb(168, 0, 168);
+} 
+
+.iconOne{
+  margin: 50px 30px 20px 70px;
+  animation: slide-down 2s
+}
+
+.iconTwo{
+  margin: 30px 30px 50px 70px;
+  animation: slide-right 2s
+}
+.iconThree{
+  margin: 20px 30px 20px 70px;
+  animation: slide-down 2s
+}
+.iconFour{
+  margin: 70px 20px 70px 20px;
+  animation: slide-up 3s
+}
+.iconFive{
+  margin: 70px 20px 30px 50px;
+  animation: slide-left 1s
+}
+

@@ -6,8 +6,9 @@ import './index.css';
 import App from './App';
 import Home from './components/home';
 import Contact from './components/contact';
+import Projects from './components/projects'
 import Interest from './components/interest';
-import Resume from './components/Resume';
+import Resume from './components/resume';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
         <Route path='/' element={<App />}>
           <Route path='' element={<Home/>}/>
           <Route path='home' element={<Home/>}/>
+          <Route path='projects' element={<Projects/>}/>
           <Route path='contact' element={<Contact/>}/>
           <Route path='resume' element={<Resume/>}/>
           <Route path='interests' element={<Interest/>}/>
