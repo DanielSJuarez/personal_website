@@ -129,3 +129,57 @@
   animation: slide-left 1s
 }
 
+.projectIcon:hover{
+  transform: scale(150%);
+  margin: 100px;
+}
+
+.hex:before {
+  content: " ";
+  width: 0; height: 0;
+  border-bottom: 30px solid rgb(168, 0, 168);
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+  position: absolute;
+  top: -30px;
+ 
+}
+
+.hex {
+  margin: 124px 0px 30px 127px;
+  width: 104px;
+  height: 60px;
+  background-color: rgb(168, 0, 168);
+  position: relative;
+  transform: scale(175%);
+}
+
+.hex:after {
+  content: "";
+  width: 0;
+  position: absolute;
+  bottom: -30px;
+  border-top: 30px solid rgb(168, 0, 168);
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+}
+
+.top{
+  display: flex;
+}
+
+.middle-top{
+  display: flex;
+  margin-left: 115px;
+}
+
+.middle-bottom{
+  display: flex;
+
+}
+
+.bottom{
+  display: flex;
+  margin-left: 115px;
+}
+
