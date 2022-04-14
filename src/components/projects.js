@@ -1,6 +1,7 @@
 function Projects() {
     return (
         <>
+            <h1 className="title">My Projects</h1>
             <div className="top">
                 <div className="hex first top-animation"></div>
                 <div className="hex right-animation"></div>

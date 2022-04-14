@@ -1,7 +1,7 @@
 function Home() {
     return (
         <>
-            <h1 className="Title">Hello! Welcome to juarezdaniel.com</h1>
+            <h1 className="title">Hello! Welcome to juarezdaniel.com</h1>
             <div className="imageHolder">
                 <img className='image' src='' alt="profileImage" />
             </div>
